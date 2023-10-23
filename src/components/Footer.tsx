@@ -4,7 +4,7 @@ import Heart from '../images/heart.svg';
 
 const Footer: React.FC = () => {
   return (
-    <div className="py-4 px-0 text-center text-lg text-gray-600 flex flex-col w-full">
+    <div className="py-4 px-0 text-center text-lg text-gray-600 flex flex-col w-full bg-gray-100 pb-[20px]">
       <span className="text-2xl font-semibold mb-2">Made with</span>
       <span>
         <img src={Heart} alt="Love" className="h-6 text-red-600 mx-auto" />
