@@ -23,8 +23,8 @@ const strengthGlyphs = {
 
 const getStrength = (bits: number) => {
   if (bits <= 45) return {strength : strengthsEnum.OK, color : " bg-red-500"};
-  if (bits > 45 && bits <= 60) return {strength : strengthsEnum.GOOD, color : " bg-blue-500"};
-  return {strength : strengthsEnum.STRONG, color : " bg-green-600"};
+  if (bits > 45 && bits <= 60) return {strength : strengthsEnum.GOOD, color : " bg-blue-400"};
+  return {strength : strengthsEnum.STRONG, color : " bg-green-400"};
 };
 
 const Meter: React.FC<MeterProps> = ({ entropy }) => {
